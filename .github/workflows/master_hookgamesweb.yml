@@ -32,4 +32,3 @@ jobs:
         app-name: 'hookgamesweb'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_f337e34f94d648c786d586257197f944 }}
-        package: .
