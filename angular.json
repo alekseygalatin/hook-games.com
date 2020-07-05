@@ -24,9 +24,20 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/ngx-lightbox/lightbox.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.2.1.min.js",
+              "src/assets/js/strider.js",
+              "src/assets/js/validator.min.js",
+              "src/assets/js/popper.min.js",
+              "src/assets/js/particles.js",
+              "src/assets/js/lightbox.min.js",
+              "src/assets/js/isotope.pkgd.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/blazy.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +130,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hook-games-web"
+    }
+  },
+  "defaultProject": "hook-games-web",
+  "cli": {
+    "analytics": "5260a7cc-a780-4f47-b786-120eb2a916ef"
+  }
 }
