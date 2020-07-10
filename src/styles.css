@@ -250,46 +250,6 @@ button {
 	color: #FFF;
 }
 /* --------------------------- /////////// II. PAGE PRELOADER /////////// --------------------------- */
-/* -Loading Screen- */
-#loader-wrapper {
-    background: #FFF;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    color: #222;
-    left: 0;
-    top: 0;
-    text-align: center;
-    z-index: 1050;
-}
-.loader-logo {
-    position: relative;
-    top: 43%;
-    font-family: Anurati, sans-serif;
-    letter-spacing: 5px;
-}
-#progress {
-    width: 0;
-    height: 2px;
-    background: #E84118;
-    position: relative;
-    top: 45%;
-}
-.loader-text {
-    position: relative;
-    top: 48%;
-}
-
-/* -Loading Screen Animation- */
-.loaded {
-    -moz-transform: translate3d(0px, -100%, 0px);
-    -webkit-transform: translate3d(0px, -100%, 0px);
-    -o-transform: translate(0px, -100%);
-    -ms-transform: translate(0px, -100%);
-    transform: translate3d(0px, -100%, 0px);
-    -webkit-transition: all 0.5s ease; 
-    transition: all 0.5s ease;
-}
 
 /* --------------------------- /////////// III. HEADER & NAVIGATION /////////// --------------------------- */
 #logo {
