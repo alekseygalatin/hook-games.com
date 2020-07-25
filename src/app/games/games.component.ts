@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons';
+import { faAndroid } from '@fortawesome/free-brands-svg-icons';
 
 enum GameType {
   mobile = "Mobile",
@@ -32,6 +34,10 @@ export class GamesComponent implements OnInit {
   games: Array<Game> = [
     new Game("More Or Less Space", "Runner", "Description", GameType.mobile)
   ];
+
+  faAndroid = faAndroid;
+  faStar = faStar;
+  faStarHalf = faStarHalf;
 
   constructor() { }
 
