@@ -334,11 +334,10 @@
       $("#msgSignup").removeClass().addClass(msgClasses).text(msg);
   }
 }
-$(document).ready(function(){
-  OnReady();
-});
-window.onload = function() {
-    //INITIALIZE ISOTIPE
+
+function OnLoad()
+{
+  //INITIALIZE ISOTIPE
     // cache container
     var $container = $('.games-portfolio');
     // initialize isotope
@@ -356,5 +355,11 @@ window.onload = function() {
     $('#progress').animate({ width:'100%'}, 300, function() {
         $('#loader-wrapper').addClass('loaded');
     });
-    
+}
+
+$(document).ready(function(){
+  OnReady();
+});
+window.onload = function() {
+  OnLoad();
 }
