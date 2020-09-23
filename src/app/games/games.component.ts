@@ -25,7 +25,7 @@ class Game {
 }
 
 @Component({
-  selector: 'games',
+  selector: 'game',
   templateUrl: './games.component.html',
   styleUrls: ['./games.component.css']
 })
