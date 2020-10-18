@@ -8,7 +8,7 @@ import { faTwitter, faFacebook, faInstagram } from '@fortawesome/free-brands-svg
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hook-games-web';
+  title = 'Homie Sapiens Games';
   faTwitter = faTwitter;
   faFacebook = faFacebook;
   faInstagram = faInstagram;

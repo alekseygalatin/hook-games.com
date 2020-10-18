@@ -32,7 +32,10 @@ class Game {
 export class GamesComponent implements OnInit {
 
   games: Array<Game> = [
-    new Game("More Or Less Space", "Runner", "Description", GameType.mobile)
+    new Game("More Or Less Space", "Runner", 
+    "The crew of the legendary spaceship \"Numby\" in search of rare gems found themselves in the anomaly zone full of dangers. Help the spaceship survive and not get lost in the vastness of space.\n" +
+    "Control the spaceship flying in cosmic infinity. Dodge dangerous asteroids, get out of the anomalies, collect beautiful gems, and go to the farthest places in the universe.", 
+    GameType.mobile)
   ];
 
   faAndroid = faAndroid;

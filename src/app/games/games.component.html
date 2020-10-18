@@ -9,7 +9,7 @@
         </div>
     </div>
     <div class="row ">
-        <div class="col-md-11 small-margin">
+        <!--<div class="col-md-11 small-margin">
            <p>Here at Hook Games we pride ourselves in delivering rich and polished experiences that our fanbase can enjoy and immerse themselve into.</p>
         </div>
         <div class="col-md-12">
@@ -17,10 +17,10 @@
                 <li>Sort By Tag :</li>
                 <li><a href="#" data-filter=".new">NEW</a></li>
                 <li><a href="#" data-filter="*">ALL</a></li>
-                <!--<li><a href="#" data-filter=".pc">PC</a></li>-->
+                <li><a href="#" data-filter=".pc">PC</a></li>
                 <li><a href="#" data-filter=".mobile">MOBILE</a></li>
             </ul>
-        </div>
+        </div>-->
     </div>
     <div class="games-portfolio ">
         <!-- Game Card Video -->
@@ -35,8 +35,8 @@
             </div>
             <div class="col-lg-12 col-xl-7 game-card-right">
                 <h2 class="short-hr-left">{{game.name}}</h2>
-                <p class="tags"><span class="subtle">{{game.genre}} | {{game.type}} | <a fragment="moreOrLess" routerLink="/policy">Privacy Policy</a></span> </p>
-                <p class="game-description">{{game.description}}<span class="expand colored strong" data-toggle="modal" data-target="#game2">Read More</span></p>
+                <p class="tags"><span class="subtle">{{game.genre}} | {{game.type}} | <a style="text-decoration: underline;" fragment="moreOrLess" routerLink="/policy">Privacy Policy</a></span> </p>
+                <p class="game-description">{{game.description}}<!--<span class="expand colored strong" data-toggle="modal" data-target="#game2">Read More</span>--></p>
                 <div *ngIf="game.isMobile()">
                     <a href="#" class="button-store">
                         <i class="fa fa-android fa-2x"></i>
@@ -46,7 +46,7 @@
                         <i class="fa fa-apple fa-2x"></i>
                         <p>Available on<br><span class="strong">Apple Store</span></p>
                    </a>
-                    <div class="rating">
+                    <!--<div class="rating">
                         <p class="strong">4.5</p>
                         <ul>
                             <li><fa-icon [icon]="faStar" class="colored"></fa-icon></li>
@@ -55,7 +55,7 @@
                             <li><fa-icon [icon]="faStar" class="colored"></fa-icon></li>
                             <li><fa-icon [icon]="faStarHalf" class="colored"></fa-icon></li>
                         </ul>
-                    </div>
+                    </div>-->
                 </div>
                 <div *ngIf="!game.isMobile()">
                     <div class="steam-btn">
