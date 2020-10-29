@@ -38,11 +38,11 @@
                 <p class="tags"><span class="subtle">{{game.genre}} | {{game.type}} | <a style="text-decoration: underline;" fragment="moreOrLess" routerLink="/policy">Privacy Policy</a></span> </p>
                 <p class="game-description">{{game.description}}<!--<span class="expand colored strong" data-toggle="modal" data-target="#game2">Read More</span>--></p>
                 <div *ngIf="game.isMobile()">
-                    <a href="#" class="button-store">
+                    <a href="https://play.google.com/store/apps/details?id=com.homiesapiensgames.moreorlessspace" class="button-store" target="_blank">
                         <i class="fa fa-android fa-2x"></i>
                         <p>Available on<br><span class="strong">Google Play</span></p>
                     </a>
-                    <a href="#" class="button-store">
+                    <a href="https://apps.apple.com/us/app/more-or-less-space/id1535981516" class="button-store" target="_blank">
                         <i class="fa fa-apple fa-2x"></i>
                         <p>Available on<br><span class="strong">Apple Store</span></p>
                    </a>
